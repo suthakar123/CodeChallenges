@@ -19,16 +19,10 @@ public class LevelOrder {
 
 	}
 	public static void LevelOrder(TreeLinkNode a){
-		StringBuilder str = new StringBuilder();
-		str = null;
 		Queue<TreeLinkNode> q1 = new LinkedList<TreeLinkNode>();
 		Queue<TreeLinkNode> q2 = new LinkedList<TreeLinkNode>();
 		System.out.print("n");
-		String s = "new";
 		HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
-		char[] chars = s.toCharArray();
-		StringBuilder str = new StringBuilder();
-		System.out.println(chars.length);
 		q1.add(a);
 		while(!q1.isEmpty() || !q2.isEmpty()){
 			while(!q1.isEmpty()){
